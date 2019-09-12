@@ -1,0 +1,76 @@
+body {
+    background-color: burlywood;
+    color: black;
+    margin: 0;
+    
+}
+
+div.card {
+    background-color: burlywood;
+    border: 5px dashed brown;
+    color : black
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+form input, label {
+    display: block;  
+}
+    img.item {
+        width: 200px;
+    }    
+     
+
+form{
+    text-align: left;
+}
+
+nav, article {
+    width: 100%;
+    padding: 15px;
+}
+
+header, footer {
+    background-color:brown ;
+    padding: 15px;
+}
+
+nav {
+    
+    background-color: coral;
+    color: black;
+    flex: 20%;
+}
+
+article {
+    background-color: darksalmon;
+}
+
+
+article div div {
+    max-width: 300px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 5px;
+}
+article, div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+
+
+@media screen and (max-width:600px) {
+    section {
+        flex-direction: column;
+      
+        
+        
+    }
+}
+
